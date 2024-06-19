@@ -4,16 +4,19 @@ body {
 }
 .testimoni {
     border: 5px solid #76dabe;
-    max-width: 80%;
+    max-width: 1200px;
     margin: auto;
     margin-top: 40px;   
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 20px;
 }
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    gap: 20px;
     width: 80%;
-    max-width: 1200px;
+    max-width: 900px;
     padding: 20px;
     margin: auto;
 }
@@ -23,14 +26,18 @@ body {
 .header-content {
     background-color: #76dabe;
     padding: 20px;
+    border-radius: 20px;
 }
 .header-content h1 {
     font-weight: normal;
     font-size: 25px;
+    padding-bottom: 30px;
 }
 .description-content {
     background-color: #ffffff;
     padding: 20px;
+    border-radius: 20px;
+    margin-top:-30px;
 }
 .pict-profile {
     width: 150px;
