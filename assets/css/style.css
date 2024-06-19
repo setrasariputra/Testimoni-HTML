@@ -1,3 +1,42 @@
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #eeeeee;
+}
+.testimoni {
+    border: 5px solid #76dabe;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 40px;   
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 80%;
+    max-width: 1200px;
+    padding: 20px;
+    margin: auto;
+}
+.grid-item {
+    text-align: center;
+}
+.header-content {
+    background-color: #76dabe;
+    padding: 20px;
+}
+.header-content h1 {
+    font-weight: normal;
+    font-size: 25px;
+}
+.description-content {
+    background-color: #ffffff;
+    padding: 20px;
+}
+.pict-profile {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    margin: auto;
+    border-radius: 100px;
+    background-size: cover;
 }
