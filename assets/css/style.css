@@ -47,3 +47,25 @@ body {
     border-radius: 100px;
     background-size: cover;
 }
+.star {
+    width: 200px;
+    height: 35px;
+    margin: auto;
+    background-image: url('../img/star-rating.png');
+    background-repeat: no-repeat;   
+}
+.star.star-5 {
+    background-position: 0px 0px;
+}
+.star.star-4 {
+    background-position: 0px -45px;
+}
+.star.star-3 {
+    background-position: 0px -87px;
+}
+.star.star-2 {
+    background-position: 0px -130px;
+}
+.star.star-1 {
+    background-position: 0px -175px;
+}
